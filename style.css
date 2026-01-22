@@ -32,7 +32,7 @@ body {
 }
 
 .header::before {
-    background-image: url('/img/rosepetal.jpg');
+    background-image: url('rosepetal.jpg');
     position: absolute;
     top: 0;
     left: 0;
@@ -47,11 +47,6 @@ body {
 .header-text {
     z-index: 1;
     position: relative;
-    /* padding: 6px; */
-}
-.home-section {
-    /* height: 96vh; */
-    /* margin-bottom: 100px; */
 }
 .container {
     height: 94vh;
@@ -59,7 +54,6 @@ body {
     margin-inline: auto;
     padding-inline: 20px;
     overflow: hidden;
-    /* border: 6px solid rgb(253, 240, 250); */
 }
 
 .navbar {
@@ -165,7 +159,6 @@ body {
     flex-direction: row;
     max-width: 100%;
     gap: 60px;
-    /* border: 1px solid black; */
     height: 65vh;
     margin: 22px;
     font-size: 1.45rem;
@@ -181,7 +174,6 @@ body {
     margin: 15px;
     /* padding: px; */
     border-radius: 8px;
-    /* box-shadow: 12px 12px 12px black; */
     box-shadow: 15px 15px 15px  rgb(255, 209, 244);
 }
 
@@ -299,4 +291,5 @@ body {
 .icon {
     width: 30px;
     height: 30px;
+
 }
