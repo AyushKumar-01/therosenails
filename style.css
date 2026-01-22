@@ -32,7 +32,7 @@ body {
 }
 
 .header::before {
-    background-image: url('rosepetal.jpg');
+    background-image: url('rosePetal.jpg');
     position: absolute;
     top: 0;
     left: 0;
@@ -293,3 +293,4 @@ body {
     height: 30px;
 
 }
+
